@@ -1,5 +1,5 @@
 ---
-title: Self host your life
+title: Self hosted life
 date: 2023-05-17 18:05:00 +0300
 author: nedevski
 categories: [Self hosted, Setup]
