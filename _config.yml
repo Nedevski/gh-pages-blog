@@ -13,12 +13,12 @@ baseurl: "/blog"
 lang: en
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
+timezone: Europe/Sofia
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: My blog # the main title
 
 tagline: A text-focused Jekyll theme # it will display as the sub-title
 
@@ -31,13 +31,13 @@ url: "https://nedevski.github.io"
 github:
   username: nedevski # change to your github username
 
-twitter:
-  username: twitter_username # change to your twitter username
+# twitter:
+#   username: twitter_username # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
+  name: Nikola Nedevski
   email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
