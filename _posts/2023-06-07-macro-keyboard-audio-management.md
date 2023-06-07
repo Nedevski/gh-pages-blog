@@ -1,6 +1,6 @@
 ---
 title: Budget Macro Keyboard for PC Audio Management
-date: 2023-06-07 14:45:00 +0300
+date: 2023-06-07 18:20:00 +0300
 author: nedevski
 categories: [Setup]
 tags: [macros, guide]     # TAG names should always be lowercase
