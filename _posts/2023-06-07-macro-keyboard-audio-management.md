@@ -67,7 +67,7 @@ You can re-bind your numpad keys to `F13`-`F35`. You can also add modifiers to c
 - Alt + F15 => `%{F15}`
 - Ctrl + Alt + Shift + F15 => `^+%{F15}`
 
-Here is a link to the [full list](hidmacros.eu/forum/viewtopic.php?t=96) of available keys.
+Here is a link to the [full list](https://hidmacros.eu/forum/viewtopic.php?t=96) of available keys.
 
 ![Desktop View](/images/2023-06-07-macro-keyboard-audio/01-rebind-key.jpg)
 
