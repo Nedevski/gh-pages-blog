@@ -8,7 +8,7 @@ image:
   path: /images/2023-06-07-macro-keyboard-audio/thumbnail.jpg
   alt: HID Macros screenshot
 ---
-
+ 
 I have a lot of audio input/output devices - headphones mic, audio interface mic, webcam mic and even more different audio outputs.
 Switching between them fast all of the time is a bit of a pain.
 
