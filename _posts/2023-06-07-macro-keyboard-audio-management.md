@@ -87,7 +87,7 @@ The audio switching relies on [AudioDeviceCmdlets](https://github.com/frgnca/Aud
 
 To install it, open Powershell as Administrator and run the following command:
 
-```
+```powershell
 Install-Module -Name AudioDeviceCmdlets
 ```
 
@@ -99,7 +99,7 @@ I've created a simple script that accepts the names of the devices as parameters
 
 Paste the script below and save the file.
 
-```
+```powershell
 param ($audio=$null, $mic=$null)
 
 if ($audio -eq $null -and $mic -eq $null)
@@ -134,7 +134,7 @@ Now if you open a Powershell window and navigate to your folder (run `cd C:\your
 
 For example to set the audio output device to "Speakers Presonus" and the microphone to the "Webcam Mic", run the following command:
 
-```
+```powershell
 .\SetAudioDevices.ps1 -executionpolicy bypass -audio "Speakers Presonus" -mic "Webcam Mic"
 ```
 
@@ -146,7 +146,7 @@ ___
 
 To do that open a new Powershell window **as an Administrator** and enter the following command:
 
-```
+```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
 ```
 
@@ -155,7 +155,7 @@ ___
 
 In order to run this script from anywhere on your system, use the full path of the script, for example:
 
-```
+```powershell
 C:\Scripts\AudioMacros\SetAudioDevices.ps1 -audio "Speaker name" -mic "Mic name"
 ```
 
@@ -169,7 +169,7 @@ Create a new file called `speakers-presonus.vbs` (or whatever your device name i
 
 Open it with notepad and paste the following:
 
-```
+```vb
 Dim audio
 audio = "Speakers Presonus"
 
@@ -185,7 +185,7 @@ objShell.run "powershell.exe -command " & ps_command, 0
 
 If you want to change only the "audio" or only the "mic", feel free to delete everything between the quotes, so you are left with:
 
-```
+```vb
 Dim mic
 mic = ""
 ```
