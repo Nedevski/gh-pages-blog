@@ -3,6 +3,9 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 
+# fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
+url: "https://blog.nedevski.com"
+
 # Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
 # and doesn't have a custom domain.
 baseurl: ""
@@ -25,8 +28,6 @@ tagline: My personal blog # it will display as the sub-title
 description: >- # used by seo meta and the atom feed
   Nikola Nedevski's personal blog.
 
-# fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://blog.nedevski.com"
 
 github:
   username: nedevski # change to your github username
