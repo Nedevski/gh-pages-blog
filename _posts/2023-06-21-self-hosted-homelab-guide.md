@@ -4,9 +4,9 @@ date: 2023-06-21 18:20:00 +0300
 author: nedevski
 categories: [Self-hosted]
 tags: [self-hosted, guide, homelab]     # TAG names should always be lowercase
-# image:
-#   path: /images/2023-06-07-macro-keyboard-audio/thumbnail.jpg
-#   alt: HID Macros screenshot
+image:
+  path: /images/2023-06-21-self-hosted-homelab/thumbnail.jpg
+  alt: Self-hosted homelab
 ---
 
 TLDR goes here.
