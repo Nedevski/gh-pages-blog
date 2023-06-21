@@ -25,9 +25,9 @@ Use Proxmox for multiple VMs or if you have multiple physical servers. It also h
 
 Use Ubuntu bare-metal if all you want to do is host different Docker containers. You can back-up your containers individually, rather than your whole OS.
 
-### Proxmox Setup
+### Proxmox Install
 
-### Ubuntu Setup
+### Ubuntu Install
 
 ### Enable Wake-on-LAN & Auto power-on
 
@@ -92,7 +92,7 @@ sudo mount -a
 sudo reboot
 ```
 
-## Core containers
+## Core Docker containers
 
 ### Samba - Windows file share
 
