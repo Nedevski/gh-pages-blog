@@ -1,5 +1,5 @@
 ---
-title: DRAFT - Self hosted multi-purpose homelab - Full Guide
+title: [DRAFT] Self hosted multi-purpose homelab - Full Guide
 date: 2023-06-21 17:30:00 +0300
 author: nedevski
 categories: [Self-hosted]
