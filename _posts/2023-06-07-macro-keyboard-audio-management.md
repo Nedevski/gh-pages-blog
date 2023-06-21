@@ -46,10 +46,15 @@ Download the program from [here](https://www.hidmacros.eu/download.php). Make su
 Unzip the files and put them in a permament location, make a folder in `C:/Program Files` or in a custom folder in your choice.
 
 ___
-**IMPORTANT!** 
+
+**IMPORTANT!**
+
 - Run the program as Administrator the first time, it needs that so it can set up everything.
+
 - Don't forget to click "Save configuration" and "Compile all" every time you make a change.
+
 - This program needs to be running in order for your macros to work. It does not have a setting for running when your computer starts, so you need to do that manually.
+
 ___
 To add your macro, just click on "New", enter a "Name" and click "Scan" to record the trigger key.
 
@@ -116,7 +121,7 @@ foreach ($device in $devices)
 {
     if ($audio -ne $null -and $device.Type -eq "Playback" -and $device.Name -match $audioNameRegex) 
     {
-        Set-AudioDevice -ID $device.Id	
+        Set-AudioDevice -ID $device.Id
     }
 
     if ($mic -ne $null -and $device.Type -eq "Recording" -and $device.Name -match $micNameRegex) 
@@ -130,7 +135,6 @@ In order to make using this script easier, I like to rename my devices beforehan
 On Windows 11 you can do that by going to `Settings => System => Sound` and opening the properties of the device. Keep in mind that you have to rename the audio output and the microphone separately, so try to set a simple convention like "Headphones" and "Headphones Mic".
 
 Now if you open a Powershell window and navigate to your folder (run `cd C:\yourfolder` in the terminal), you can execute that powershell script.
-
 
 For example to set the audio output device to "Speakers Presonus" and the microphone to the "Webcam Mic", run the following command:
 
