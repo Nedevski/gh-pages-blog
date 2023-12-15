@@ -155,7 +155,6 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
 ```
 
 After that try again and it should work.
-___
 
 In order to run this script from anywhere on your system, use the full path of the script, for example:
 
